@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/aethctl-banner-light.png" alt="aethctl banner" width="100%">
+  <img src="./images/aethctl-banner.png" alt="aethctl banner" width="100%">
 </div>
 
 <br>
