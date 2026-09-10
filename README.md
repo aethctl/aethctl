@@ -8,16 +8,16 @@
 
 Linux enthusiast, software developer, and serial config-file offender.
 
-I build Linux tooling, interfaces, and occasionally
-entire system ports because leaving things stock is apparently not an option.
+I build Linux tooling, interfaces, and occasionally entire system ports because
+leaving things stock is apparently not an option.
 
 Most of my work lives somewhere between **systems engineering**, **desktop UX**,
 and **making Linux look considerably better than it has any right to**.
 
-- **Systems** — NixOS, Arch and Void
-- **Interfaces** — Hyprland, KDE and Niri
+- **Systems** — NixOS, Arch, and Void
+- **Interfaces** — Hyprland, KDE, and Niri
 - **Development** — Nix, Python, QML, Shell, JSON, CSS
-- **Editor** — Lazyvim, obviously 
+- **Editor** — LazyVim, obviously
 
 <br clear="right"/>
 
@@ -28,11 +28,11 @@ and **making Linux look considerably better than it has any right to**.
 </a>
 
 **[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)** is an official
-NixOS port of the Ryoku desktop ecosystem. 
+NixOS port of the Ryoku desktop ecosystem.
 
 The goal is not to make Ryoku merely *run* on NixOS. It is to make the whole
-desktop feel native to it, reproducible packages, declarative configuration,
-Nix managed services, and the same polished Ryoku shell experience.
+desktop feel native to it: reproducible packages, declarative configuration,
+Nix-managed services, and the same polished Ryoku shell experience.
 
 `NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
 
@@ -50,15 +50,14 @@ knows but does not always make pleasant to understand.
 
 ### >_ selected work
 
-**[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)**  
-A native declarative port of the Ryoku desktop ecosystem for NixOS.
+**[CommitQuest](https://github.com/aethctl/commitquest)**  
+Turn real Git progress into a local collectathon-style developer RPG.
 
-**Nixview**  
-A visual system inspector for understanding a NixOS machine without becoming
-one with `nix-store --query`.
+**[Arcane Guard](https://github.com/aethctl/arcane-guard)**  
+Inspect Linux packages, scripts, and dotfiles before trusting them with your system.
 
 **[Ryostore](https://github.com/aethctl/ryostore)**  
-Ryoku components, themes and desktop extras packaged for the ecosystem, made for Ryoku on NixOS
+Ryoku components, themes, and desktop extras packaged for the ecosystem.
 
 ### >_ stack
 
