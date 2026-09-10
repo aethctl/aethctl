@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/aethctl-banner.png" alt="aethctl banner" width="100%">
+<img src="./images/aethctl-banner.png" alt="aethctl banner" width="100%">
 
 <br>
 
