@@ -55,7 +55,7 @@ technically knows but does not always make pleasant to understand.
 <br/>
 
 <a href="https://github.com/aethctl/arcane-guard">
-  <img src="assets/arcane-guard-strip.png" width="100%" alt="Arcane Guard" />
+  <img src="assets/arcaneguard-strip.png" width="100%" alt="Arcane Guard" />
 </a>
 
 <br/>
