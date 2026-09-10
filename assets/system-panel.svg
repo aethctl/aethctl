@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+<style>
+  .fg{fill:#111}
+  .muted{fill:#666}
+  .line{stroke:#b9b9b9}
+  @media (prefers-color-scheme: dark){
+    .fg{fill:#f2f2f2}
+    .muted{fill:#9a9a9a}
+    .line{stroke:#3d3d3d}
+  }
+  text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+</style>
+<rect x="1" y="1" width="518" height="358" rx="18" fill="none" class="line" stroke-width="1"/>
+<text x="34" y="56" class="fg" font-size="22" font-weight="700">aethctl@github</text>
+<line x1="34" y1="76" x2="486" y2="76" class="line"/>
+<text x="34" y="122" class="muted" font-size="18">OS</text><text x="158" y="122" class="fg" font-size="18">NixOS</text>
+<text x="34" y="158" class="muted" font-size="18">WM</text><text x="158" y="158" class="fg" font-size="18">Hyprland</text>
+<text x="34" y="194" class="muted" font-size="18">SHELL</text><text x="158" y="194" class="fg" font-size="18">zsh</text>
+<text x="34" y="230" class="muted" font-size="18">EDITOR</text><text x="158" y="230" class="fg" font-size="18">Neovim</text>
+<text x="34" y="286" class="muted" font-size="16">~/systems</text>
+<text x="34" y="325" class="fg" font-size="20">λ _</text>
+</svg>
