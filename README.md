@@ -8,16 +8,16 @@
 
 Linux enthusiast, software developer, and serial config-file offender.
 
-I build Linux tooling, desktop environments, interfaces, and occasionally
+I build Linux tooling, interfaces, and occasionally
 entire system ports because leaving things stock is apparently not an option.
 
 Most of my work lives somewhere between **systems engineering**, **desktop UX**,
 and **making Linux look considerably better than it has any right to**.
 
-- **Systems** — NixOS, declarative configuration, packaging, services
-- **Interfaces** — Hyprland, Quickshell, QML, desktop tooling
+- **Systems** — NixOS, Arch and Void
+- **Interfaces** — Hyprland, KDE and Niri
 - **Development** — Nix, Python, QML, Shell, JSON, CSS
-- **Editor** — Neovim, obviously
+- **Editor** — Lazyvim, obviously 
 
 <br clear="right"/>
 
@@ -27,12 +27,12 @@ and **making Linux look considerably better than it has any right to**.
   <img src="assets/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
 </a>
 
-**[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)** is my declarative
-NixOS port of the Ryoku desktop ecosystem.
+**[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)** is an official
+NixOS port of the Ryoku desktop ecosystem. 
 
 The goal is not to make Ryoku merely *run* on NixOS. It is to make the whole
-desktop feel native to it: reproducible packages, declarative configuration,
-Nix-managed services, and the same polished Ryoku shell experience.
+desktop feel native to it, reproducible packages, declarative configuration,
+Nix managed services, and the same polished Ryoku shell experience.
 
 `NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
 
@@ -58,7 +58,7 @@ A visual system inspector for understanding a NixOS machine without becoming
 one with `nix-store --query`.
 
 **[Ryostore](https://github.com/aethctl/ryostore)**  
-Ryoku components, themes and desktop extras packaged for the ecosystem.
+Ryoku components, themes and desktop extras packaged for the ecosystem, made for Ryoku on NixOS
 
 ### >_ stack
 
@@ -68,7 +68,6 @@ Ryoku components, themes and desktop extras packaged for the ecosystem.
 
 building Nixview  
 improving Ryoku on NixOS  
-learning more Linux internals than is probably necessary  
 changing one line in a config and rebuilding my entire operating system
 
 ---
