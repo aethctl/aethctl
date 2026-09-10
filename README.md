@@ -11,6 +11,9 @@ Linux enthusiast, software developer, and serial config-file offender.
 I build Linux tooling, interfaces, and occasionally entire system ports because
 leaving things stock is apparently not an option.
 
+Most of my work lives somewhere between **systems engineering**, **desktop UX**,
+and **making Linux look considerably better than it has any right to**.
+
 - **Systems** — NixOS, Arch, and Void
 - **Interfaces** — Hyprland, KDE, and Niri
 - **Development** — Nix, Python, QML, Shell, JSON, CSS
@@ -18,7 +21,7 @@ leaving things stock is apparently not an option.
 
 <br clear="right"/>
 
-### >_ Main Project
+### >_ flagship
 
 <a href="https://github.com/aethctl/Ryoku-on-NixOS">
   <img src="assets/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
@@ -35,40 +38,39 @@ Nix-managed services, and the same polished Ryoku shell experience.
 
 ### >_ building
 
-**Nixview** &nbsp; `WIP`
+<img src="assets/nixview.png" width="100%" alt="Nixview — see what NixOS is actually doing." />
 
-See what NixOS is actually doing.
-
-A system inspector for generations, flakes, services, packages, store usage,
-dependencies, configuration state, and all the other things NixOS technically
-knows but does not always make pleasant to understand.
+**Nixview** is a system inspector for generations, flakes, services, packages,
+store usage, dependencies, and configuration state — all the things NixOS
+technically knows but does not always make pleasant to understand.
 
 `NixOS` · `TUI` · `Flakes` · `System Insight`
 
 ### >_ selected work
 
-**[CommitQuest](https://github.com/aethctl/commitquest)**  
-Turn real Git progress into a local collectathon-style developer RPG.
+<a href="https://github.com/aethctl/commitquest">
+  <img src="assets/commitquest-strip.png" width="100%" alt="CommitQuest" />
+</a>
 
-**[Arcane Guard](https://github.com/aethctl/arcane-guard)**  
-Inspect Linux packages, scripts, and dotfiles before trusting them with your system.
+<br/>
 
-**[Ryostore](https://github.com/aethctl/ryostore)**  
-Ryoku components, themes, and desktop extras packaged for the ecosystem specifically made for NixOS
+<a href="https://github.com/aethctl/arcane-guard">
+  <img src="assets/arcane-guard-strip.png" width="100%" alt="Arcane Guard" />
+</a>
 
-### >_ stack
+<br/>
 
-`NixOS` · `Nix` · `QML` · `Quickshell` · `Python` · `Shell` · `JSON` · `CSS`
+<a href="https://github.com/aethctl/ryostore">
+  <img src="assets/ryostore-strip.png" width="100%" alt="Ryostore" />
+</a>
 
-### >_ currently
-
-building Nixview  
-improving Ryoku on NixOS  
-changing one line in a config and rebuilding my entire operating system
-
----
+<br/><br/>
 
 <div align="center">
+
+`NixOS` · `Nix` · `QML` · `Python` · `Shell` · `JSON` · `CSS`
+
+<br/><br/>
 
 <sub>
 certified neovim enjoyer · aesthetics &gt; function · this is probably why nothing is ever finished
