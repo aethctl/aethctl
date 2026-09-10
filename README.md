@@ -21,7 +21,7 @@ and **making Linux look considerably better than it has any right to**.
 
 <br clear="right"/>
 
-### >_ flagship
+### >_ Main Project
 
 <a href="https://github.com/aethctl/Ryoku-on-NixOS">
   <img src="assets/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
