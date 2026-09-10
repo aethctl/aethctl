@@ -1,10 +1,10 @@
-<img src="images/hero.svg" width="100%" alt="aethctl — Linux systems, software and interfaces." />
+<img src="assets/hero.svg" width="100%" alt="aethctl — Linux systems, software and interfaces." />
 
 <br/>
 
 ### >_ whoami
 
-<img align="right" width="320" src="images/system-panel.svg" alt="aethctl system panel" />
+<img align="right" width="320" src="assets/system-panel.svg" alt="aethctl system panel" />
 
 Linux enthusiast, software developer, and serial config-file offender.
 
@@ -23,7 +23,7 @@ and **making Linux look considerably better than it has any right to**.
 
 ### >_ flagship
 
-<img src="images/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
+<img src="assets/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
 
 **[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)** is my declarative
 NixOS port of the Ryoku desktop ecosystem.
@@ -34,9 +34,9 @@ Nix-managed services, and the same polished Ryoku shell experience.
 
 `NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
 
-<img width="49%" src="images/ryoku-desktop.webp" alt="Ryoku desktop" />
+<img width="49%" src="assets/ryoku-desktop.webp" alt="Ryoku desktop" />
 &nbsp;
-<img width="49%" src="images/ryoku-settings.webp" alt="Ryoku settings" />
+<img width="49%" src="assets/ryoku-settings.webp" alt="Ryoku settings" />
 
 ### >_ building
 
