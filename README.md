@@ -11,17 +11,14 @@ Linux enthusiast, software developer, and serial config-file offender.
 I build Linux tooling, interfaces, and occasionally entire system ports because
 leaving things stock is apparently not an option.
 
-Most of my work lives somewhere between **systems engineering**, **desktop UX**,
-and **making Linux look considerably better than it has any right to**.
-
 - **Systems** — NixOS, Arch, and Void
 - **Interfaces** — Hyprland, KDE, and Niri
 - **Development** — Nix, Python, QML, Shell, JSON, CSS
-- **Editor** — LazyVim, obviously
+- **Editor** — LazyVim obviously
 
 <br clear="right"/>
 
-### >_ flagship
+### >_ Main Project
 
 <a href="https://github.com/aethctl/Ryoku-on-NixOS">
   <img src="assets/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
@@ -57,7 +54,7 @@ Turn real Git progress into a local collectathon-style developer RPG.
 Inspect Linux packages, scripts, and dotfiles before trusting them with your system.
 
 **[Ryostore](https://github.com/aethctl/ryostore)**  
-Ryoku components, themes, and desktop extras packaged for the ecosystem.
+Ryoku components, themes, and desktop extras packaged for the ecosystem specifically made for NixOS
 
 ### >_ stack
 
