@@ -30,21 +30,11 @@ and **making Linux look considerably better than it has any right to**.
 **[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)** is an official
 NixOS port of the Ryoku desktop ecosystem.
 
-The goal is not to make Ryoku merely *run* on NixOS. It is to make the whole
-desktop feel native to it: reproducible packages, declarative configuration,
-Nix-managed services, and the same polished Ryoku shell experience.
+The goal is not to make Ryoku just *run* on NixOS. It is to make the whole
+desktop feel native to it, reproducible packages, declarative configuration,
+Nix-managed services, and the same polished Ryoku shell experience you experience on Arch.
 
 `NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
-
-### >_ building
-
-<img src="assets/nixview.png" width="100%" alt="Nixview — see what NixOS is actually doing." />
-
-**Nixview** is a system inspector for generations, flakes, services, packages,
-store usage, dependencies, and configuration state — all the things NixOS
-technically knows but does not always make pleasant to understand.
-
-`NixOS` · `TUI` · `Flakes` · `System Insight`
 
 ### >_ selected work
 
@@ -71,6 +61,15 @@ technically knows but does not always make pleasant to understand.
 `NixOS` · `Nix` · `QML` · `Python` · `Shell` · `JSON` · `CSS`
 
 <br/><br/>
+
+
+### >_ building
+
+<img src="assets/nixview.png" width="100%" alt="Nixview — see what NixOS is actually doing." />
+
+**Nixview** is a system inspector for generations, flakes, services, packages,
+store usage, dependencies, and configuration state — all the things NixOS
+technically knows but does not always make pleasant to understand.
 
 <sub>
 certified neovim enjoyer · aesthetics &gt; function · this is probably why nothing is ever finished
