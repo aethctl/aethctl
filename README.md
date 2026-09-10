@@ -1,53 +1,83 @@
-<div align="center">
+<img src="images/hero.svg" width="100%" alt="aethctl — Linux systems, software and interfaces." />
 
-<img src="./images/aethctl-banner.png" width="100%" alt="aethctl">
+<br/>
 
-<br><br>
+### >_ whoami
 
-<sub>
-linux enthusiast, developer, and serial config-file offender
-</sub>
+<img align="right" width="320" src="images/system-panel.svg" alt="aethctl system panel" />
 
-<br>
+Linux enthusiast, software developer, and serial config-file offender.
 
-<sub>
-i build software, desktop environments, tooling, and occasionally entire distributions because leaving things stock would be considerably less interesting.
-</sub>
+I build Linux tooling, desktop environments, interfaces, and occasionally
+entire system ports because leaving things stock is apparently not an option.
 
-<br><br><br>
+Most of my work lives somewhere between **systems engineering**, **desktop UX**,
+and **making Linux look considerably better than it has any right to**.
 
-<a href="https://github.com/aethctl/Ryoku-on-NixOS">
-  <img src="./images/ryoku-card.svg" width="100%" alt="Ryoku on NixOS">
-</a>
+- **Systems** — NixOS, declarative configuration, packaging, services
+- **Interfaces** — Hyprland, Quickshell, QML, desktop tooling
+- **Development** — Nix, Python, QML, Shell, JSON, CSS
+- **Editor** — Neovim, obviously
 
-<br><br><br>
+<br clear="right"/>
 
-<code>NixOS</code>
-&nbsp;&nbsp;
-<code>Hyprland</code>
-&nbsp;&nbsp;
-<code>Neovim</code>
-&nbsp;&nbsp;
-<code>zsh</code>
+### >_ flagship
 
-<br><br>
+<img src="images/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
 
-<sub>
-currently // building nixview
-<br>
-status // probably rewriting something
-</sub>
+**[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)** is my declarative
+NixOS port of the Ryoku desktop ecosystem.
 
-<br><br><br>
+The goal is not to make Ryoku merely *run* on NixOS. It is to make the whole
+desktop feel native to it: reproducible packages, declarative configuration,
+Nix-managed services, and the same polished Ryoku shell experience.
 
-<img
-  src="https://github-readme-stats.vercel.app/api?username=aethctl&show_icons=true&hide_title=true&hide_border=true&bg_color=00000000&text_color=777777&icon_color=777777"
-  height="150"
-  alt="GitHub stats"
-/>
+`NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
 
-<br><br>
+<img width="49%" src="images/ryoku-desktop.webp" alt="Ryoku desktop" />
+&nbsp;
+<img width="49%" src="images/ryoku-settings.webp" alt="Ryoku settings" />
 
-<code>[ EOF ]</code>
+### >_ building
 
-</div>
+**Nixview** &nbsp; `WIP`
+
+See what NixOS is actually doing.
+
+A system inspector for generations, flakes, services, packages, store usage,
+dependencies, configuration state, and all the other things NixOS technically
+knows but does not always make pleasant to understand.
+
+`NixOS` · `TUI` · `Flakes` · `System Insight`
+
+### >_ selected work
+
+**[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)**  
+A native declarative port of the Ryoku desktop ecosystem for NixOS.
+
+**Nixview**  
+A visual system inspector for understanding a NixOS machine without becoming
+one with `nix-store --query`.
+
+**[Ryostore](https://github.com/aethctl/ryostore)**  
+Ryoku components, themes and desktop extras packaged for the ecosystem.
+
+### >_ stack
+
+`NixOS` &nbsp;
+`Nix` &nbsp;
+`QML` &nbsp;
+`Quickshell` &nbsp;
+`Python` &nbsp;
+`Shell` &nbsp;
+`JSON` &nbsp;
+`CSS`
+
+<br/>
+
+```text
+OS       NixOS
+WM       Hyprland
+SHELL    zsh
+EDITOR   Neovim
+STATUS   probably rewriting something that already worked
