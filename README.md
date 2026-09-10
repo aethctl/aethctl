@@ -4,7 +4,7 @@
 
 ### >_ whoami
 
-<img align="right" width="320" src="assets/system-panel.svg" alt="aethctl system panel" />
+<img align="right" width="300" src="assets/system-panel.svg" alt="aethctl system panel" />
 
 Linux enthusiast, software developer, and serial config-file offender.
 
@@ -23,7 +23,9 @@ and **making Linux look considerably better than it has any right to**.
 
 ### >_ flagship
 
-<img src="assets/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
+<a href="https://github.com/aethctl/Ryoku-on-NixOS">
+  <img src="assets/ryoku-band.svg" width="100%" alt="Ryoku on NixOS" />
+</a>
 
 **[Ryoku on NixOS](https://github.com/aethctl/Ryoku-on-NixOS)** is my declarative
 NixOS port of the Ryoku desktop ecosystem.
@@ -33,10 +35,6 @@ desktop feel native to it: reproducible packages, declarative configuration,
 Nix-managed services, and the same polished Ryoku shell experience.
 
 `NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
-
-<img width="49%" src="assets/ryoku-desktop.webp" alt="Ryoku desktop" />
-&nbsp;
-<img width="49%" src="assets/ryoku-settings.webp" alt="Ryoku settings" />
 
 ### >_ building
 
@@ -64,20 +62,25 @@ Ryoku components, themes and desktop extras packaged for the ecosystem.
 
 ### >_ stack
 
-`NixOS` &nbsp;
-`Nix` &nbsp;
-`QML` &nbsp;
-`Quickshell` &nbsp;
-`Python` &nbsp;
-`Shell` &nbsp;
-`JSON` &nbsp;
-`CSS`
+`NixOS` · `Nix` · `QML` · `Quickshell` · `Python` · `Shell` · `JSON` · `CSS`
 
-<br/>
+### >_ currently
 
-```text
-OS       NixOS
-WM       Hyprland
-SHELL    zsh
-EDITOR   Neovim
-STATUS   probably rewriting something that already worked
+building Nixview  
+improving Ryoku on NixOS  
+learning more Linux internals than is probably necessary  
+changing one line in a config and rebuilding my entire operating system
+
+---
+
+<div align="center">
+
+<sub>
+certified neovim enjoyer · aesthetics &gt; function · this is probably why nothing is ever finished
+</sub>
+
+<br/><br/>
+
+<code>[ EOF ]</code>
+
+</div>
