@@ -1,30 +1,52 @@
 <div align="center">
-
-<img src="./images/aethctl-banner.png" alt="aethctl banner" width="100%">
-
-<br>
-
-<sub>
-Linux enthusiast, developer, and serial config-file offender.<br>
-I build software, desktop environments, tooling, and occasionally entire distributions because leaving things stock would be considerably less interesting.
-</sub>
-
-<br><br>
-
-<code>NixOS</code>
-   <code>Hyprland</code>
-   <code>QML</code>
-   <code>Nix</code>
-   <code>Python</code>
-   <code>CSS</code>
-
+  <img src="./images/aethctl-banner-light.png" alt="aethctl banner" width="100%">
 </div>
 
 <br>
 
+<div align="center">
+  <sub>
+    linux enthusiast, developer, and serial config-file offender
+  </sub>
+  <br>
+  <sub>
+    i build software, desktop environments, tooling, and occasionally entire distributions because leaving things stock would be considerably less interesting.
+  </sub>
+</div>
+
+<br>
+
+<div align="center">
+  <code>NixOS</code>
+  &nbsp;
+  <code>Hyprland</code>
+  &nbsp;
+  <code>QML</code>
+  &nbsp;
+  <code>Nix</code>
+  &nbsp;
+  <code>Python</code>
+  &nbsp;
+  <code>CSS</code>
+</div>
+
+<br><br>
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="68%" valign="top">
+
+## Featured
+
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://github.com/aethctl/ryoku-nixos">
+  <img src="./assets/ryoku-preview.png" alt="Ryoku on NixOS preview" width="100%">
+</a>
+
+<br><br>
 
 ### Ryoku on NixOS
 
@@ -35,18 +57,34 @@ Built around reproducibility, native Nix packaging, Hyprland, Quickshell, and ma
 <br>
 
 <sub>
-NixOS · Hyprland · Quickshell · Nix
+  <code>NixOS</code>
+  &nbsp;
+  <code>Hyprland</code>
+  &nbsp;
+  <code>Quickshell</code>
+  &nbsp;
+  <code>Nix</code>
 </sub>
 
 <br><br>
 
-<a href="https://github.com/aethctl/ryoku-nixos">
-<strong>View repository →</strong>
-</a>
+<a href="https://github.com/aethctl/ryoku-nixos"><strong>View repository →</strong></a>
 
 </td>
+</tr>
+</table>
 
-<td width="50%" valign="top">
+<br>
+
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://github.com/aethctl/nixview">
+  <img src="./assets/nixview-preview.png" alt="Nixview preview" width="100%">
+</a>
+
+<br><br>
 
 ### Nixview <sup>WIP</sup>
 
@@ -57,12 +95,57 @@ A system inspector built around making generations, flakes, services, packages, 
 <br>
 
 <sub>
-NixOS · TUI · Flakes · System Insight
+  <code>NixOS</code>
+  &nbsp;
+  <code>TUI</code>
+  &nbsp;
+  <code>Flakes</code>
+  &nbsp;
+  <code>System Insight</code>
 </sub>
 
 <br><br>
 
-<strong>In development →</strong>
+<a href="https://github.com/aethctl/nixview"><strong>Follow development →</strong></a>
+
+</td>
+</tr>
+</table>
+
+</td>
+
+<td width="32%" valign="top">
+
+## System
+
+<pre>
+OS       NixOS
+WM       Hyprland
+Shell    zsh
+Editor   Neovim
+Focus    systems / tooling / interfaces
+Status   probably rewriting something
+</pre>
+
+## Currently
+
+- working on <strong>Nixview</strong>
+- improving <strong>Ryoku on NixOS</strong>
+- learning more about Linux internals
+- probably tweaking my config again
+
+## Elsewhere
+
+<a href="https://github.com/aethctl">GitHub</a><br>
+<a href="https://github.com/aethctl?tab=repositories">Repositories</a>
+
+<br>
+
+<sub>
+open source.<br>
+better systems.<br>
+cooler desktops.
+</sub>
 
 </td>
 </tr>
@@ -70,56 +153,23 @@ NixOS · TUI · Flakes · System Insight
 
 <br>
 
-### Currently
-
-* Working on **Nixview**
-* Improving **Ryoku on NixOS**
-* Learning more about Linux internals and declarative systems
-* Probably tweaking my config again
-
-<br>
-
-### System
-
-```text
-OS       NixOS
-WM       Hyprland
-Shell    zsh
-Editor   Neovim
-Focus    systems / tooling / interfaces
-Status   probably rewriting something
-```
-
-<br>
-
-### Activity
+## Activity
 
 <div align="center">
-
-<img
-src="https://github-readme-stats.vercel.app/api?username=aethctl&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000&text_color=777777&icon_color=777777"
-height="150"
-alt="GitHub stats"
-/>
-
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=aethctl&layout=compact&hide_border=true&bg_color=00000000&text_color=777777"
-height="150"
-alt="Top languages"
-/>
-
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=aethctl&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000&title_color=666666&text_color=666666&icon_color=666666"
+    alt="GitHub stats"
+    height="165"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=aethctl&layout=compact&hide_border=true&bg_color=00000000&title_color=666666&text_color=666666"
+    alt="Top languages"
+    height="165"
+  />
 </div>
 
 <br>
 
 <div align="center">
-
-<sub>
-open source · better systems · cooler desktops
-</sub>
-
-<br><br>
-
-<code>[ EOF ]</code>
-
+  <code>[ EOF ]</code>
 </div>
