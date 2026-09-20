@@ -34,7 +34,7 @@ The goal is not to make Ryoku just *run* on NixOS. It is to make the whole
 desktop feel native to it, reproducible packages, declarative configuration,
 Nix-managed services, and the same polished Ryoku shell experience you experience on Arch.
 
-`NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
+`NixOS` · `Hyprland` · `Niri` · `Quickshell` · `QML` ·  `Nix`
 
 <sub>
 certified neovim enjoyer · aesthetics &gt; function · this is probably why nothing is ever finished
