@@ -36,41 +36,6 @@ Nix-managed services, and the same polished Ryoku shell experience you experienc
 
 `NixOS` · `Hyprland` · `Quickshell` · `QML` · `Nix`
 
-### >_ selected work
-
-<a href="https://github.com/aethctl/commitquest">
-  <img src="assets/commitquest-strip.png" width="100%" alt="CommitQuest" />
-</a>
-
-<br/>
-
-<a href="https://github.com/aethctl/arcane-guard">
-  <img src="assets/arcane-guard-strip.png" width="100%" alt="Arcane Guard" />
-</a>
-
-<br/>
-
-<a href="https://github.com/aethctl/ryostore">
-  <img src="assets/ryostore-strip.png" width="100%" alt="Ryostore" />
-</a>
-
-<br/><br/>
-
-<div align="center">
-
-`NixOS` · `Nix` · `QML` · `Python` · `Shell` · `JSON` · `CSS`
-
-<br/><br/>
-
-
-### >_ building
-
-<img src="assets/nixview.png" width="100%" alt="Nixview — see what NixOS is actually doing." />
-
-**Nixview** is a system inspector for generations, flakes, services, packages,
-store usage, dependencies, and configuration state — all the things NixOS
-technically knows but does not always make pleasant to understand.
-
 <sub>
 certified neovim enjoyer · aesthetics &gt; function · this is probably why nothing is ever finished
 </sub>
