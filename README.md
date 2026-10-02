@@ -88,20 +88,6 @@ My goal is simple: build software I genuinely want to use, keep learning by brea
   <img src="https://cdn.simpleicons.org/docker/ffffff" height="46" alt="Docker" title="Docker" />
 </p>
 
-<h2 align="center">📊 GitHub Stats</h2>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=midnightshady&theme=city_lights&hide_border=false&border_radius=5" height="150"/>
-
-</div>
-
-<h2 align="center">📈 Activity Graph</h2>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=midnightshady&bg_color=1F242C&color=E6EDF3&line=3B82F6&point=58A6FF&area=true&hide_border=true&radius=16" alt="Activity Graph"/>
-</p>
-
 ### 
 <h2 align="center">⌘ Commit Activity</h2>
 
