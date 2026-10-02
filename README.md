@@ -127,16 +127,21 @@ My goal is simple: build software I genuinely want to use, keep learning by brea
   <img src="https://cdn.simpleicons.org/docker/ffffff" height="46" alt="Docker" title="Docker" />
 </p>
 
-### 
 <h2 align="center">⌘ Commit Activity</h2>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/midnightshady/midnightshady/output/pacman-contribution-graph-dark.svg">
-
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/midnightshady/midnightshady/output/pacman-contribution-graph.svg">
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/midnightshady/midnightshady/output/pacman-contribution-graph-dark.svg">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/aethctl/aethctl./output/pacman-contribution-graph-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/aethctl/aethctl./output/pacman-contribution-graph.svg"
+    />
+    <img
+      alt="Aethctl's Pac-Man contribution graph"
+      src="https://raw.githubusercontent.com/aethctl/aethctl./output/pacman-contribution-graph-dark.svg"
+    />
+  </picture>
 </p>
