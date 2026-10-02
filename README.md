@@ -2,7 +2,7 @@
   <img src="./assets/ascihand-removebg-preview.png" alt="Banner" width="100%">
 </p>
 
-<h1 align="center">Hi 👋, I'm Aethctl </h1>
+<h1 align="center">Hey 👋, I'm Aether </h1>
 
 <h3 align="center">Linux Developer</h3>
 
