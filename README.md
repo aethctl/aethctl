@@ -44,9 +44,9 @@ My goal is simple: build things I genuinely want to use, keep learning by breaki
 </p>
 
 <p>
-  My work around Ryoku focuses heavily on NixOS support, distro integration,
-  desktop tooling, compositor support, and making the whole thing feel like
-  one intentional system instead of seventeen projects wearing a trench coat.
+  My work around Ryoku focuses heavily on NixOS support, 
+  desktop tooling, compositor support and making the whole thing feel just
+  as good as it does on Arch Linux and CachyOS.
 </p>
 
 <p>
