@@ -7,7 +7,10 @@
 <h3 align="center">Linux Developer</h3>
 
 <p align="center">
-  <img src= https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=60&lines=+%3E+Ryoku+Developer;%3E+Serial+Config+Editor;+%3E+NixOS+Fanboy;+%3ECreator+of+..things;Aesthetics+>+Function alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=60&lines=%3E+Ryoku+Developer;%3E+Serial+Config+Editor;%3E+NixOS+Fanboy;%3E+Creator+of+..things;Aesthetics+%3E+Function"
+    alt="Typing SVG"
+  />
 </p>
 
 ##  <h2 align="center">🚀 About Me </h2>
