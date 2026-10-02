@@ -58,6 +58,24 @@ My goal is simple: build things I genuinely want to use, keep learning by breaki
   &nbsp;•&nbsp;
   <code>Quickshell</code>
 </p>
+<br>
+
+<h2 align="center">✨ Specs</h2>
+
+**OS:** NixOS 26.11 (Zokor)
+<br>
+**KER:** 7.2.8-cachy
+<br>
+**CPU:** AMD Ryzen 5 5600X @ 4.70 GHz
+<br>
+**GPU:** NVIDIA GeForce RTX 5060 8gb @ 2280MHz
+<br>
+**MEM:** 32gb DDR4 @ 3600MHz
+<br>
+**WM:** niri 26.04
+<br>
+**SHELL** Ryoku on NixOS
+<br>
 
 <p>
   <a href="https://github.com/Ryoku-dev/ryoku">
