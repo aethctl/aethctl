@@ -58,6 +58,7 @@ My goal is simple: build things I genuinely want to use, keep learning by breaki
   &nbsp;•&nbsp;
   <code>Quickshell</code>
 </p>
+
 <br>
 
 <h2 align="center">✨ Specs</h2>
