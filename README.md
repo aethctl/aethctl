@@ -26,18 +26,35 @@ My goal is simple: build software I genuinely want to use, keep learning by brea
 <h2 align="center">🤝 Connect</h2>
 
 <p align="center">
-  <a href="https://github.com/midnightshady">
-    <img src="https://skillicons.dev/icons?i=github" height="45" />
+  <a href="https://github.com/aethctl">
+    <img src="https://cdn.simpleicons.org/github/ffffff" height="42" alt="GitHub" title="GitHub: aethctl" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/kaif-qureshi-999457339">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45" />
+  <a href="https://x.com/aethctl">
+    <img src="https://cdn.simpleicons.org/x/ffffff" height="42" alt="X" title="X: @aethctl" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="mailto:kaifqureshi3672@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="45" />
+  <a href="https://steamcommunity.com/id/aethctl">
+    <img src="https://cdn.simpleicons.org/steam/ffffff" height="42" alt="Steam" title="Steam: aethctl" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://discord.com/app">
+    <img src="https://cdn.simpleicons.org/discord/ffffff" height="42" alt="Discord" title="Discord: aethctl." />
   </a>
 </p>
+
+<p align="center">
+  <sub>
+    GitHub: <strong>aethctl</strong>
+    &nbsp;•&nbsp;
+    X: <strong>@aethctl</strong>
+    &nbsp;•&nbsp;
+    Discord: <strong>aethctl.</strong>
+    &nbsp;•&nbsp;
+    Steam: <strong>aethctl</strong>
+  </sub>
+</p>
+
 
 <h2 align="center">💻 Tech Stack</h2>
 
