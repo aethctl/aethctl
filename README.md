@@ -26,21 +26,30 @@ My goal is simple: build things I genuinely want to use, keep learning by breaki
 
 <h2 align="center">⛩️ Ryoku</h2>
 
-<p align="center">
-  <img src="./assets/ryoku-logo-white.png" width="95" alt="Ryoku" />
+<img
+  align="left"
+  src="./assets/ryoku-logo-white.png"
+  width="220"
+  alt="Ryoku"
+/>
+
+<p>
+  <strong>A polished Wayland desktop built around Linux, customization and actual usability.</strong>
 </p>
 
-<p align="center">
-  <strong>A polished and complete shell built around Quickshell, customization and actual usability.</strong>
-</p>
-
-<p align="center">
+<p>
   Ryoku is the project I spend most of my time building and contributing to.
-  It combines a custom desktop shell, system tooling, theming, applications
-  and compositor integration into one cohesive and easy to use shell
+  It combines a custom desktop shell, system tooling, theming, applications,
+  and compositor integration into one cohesive Linux environment.
 </p>
 
-<p align="center">
+<p>
+  My work around Ryoku focuses heavily on NixOS support, distro integration,
+  desktop tooling, compositor support, and making the whole thing feel like
+  one intentional system instead of seventeen projects wearing a trench coat.
+</p>
+
+<p>
   <code>NixOS</code>
   &nbsp;•&nbsp;
   <code>Hyprland</code>
@@ -50,7 +59,7 @@ My goal is simple: build things I genuinely want to use, keep learning by breaki
   <code>Quickshell</code>
 </p>
 
-<p align="center">
+<p>
   <a href="https://github.com/Ryoku-dev/ryoku">
     <img src="https://img.shields.io/badge/Ryoku-Core-111318?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=111318&color=22252b" />
   </a>
@@ -60,7 +69,8 @@ My goal is simple: build things I genuinely want to use, keep learning by breaki
   </a>
 </p>
 
-<br clear="right"/>
+<br clear="left"/>
+
 
 <h2 align="center">🤝 Connect</h2>
 
