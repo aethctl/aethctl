@@ -10,22 +10,10 @@
   <img src= https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=60&lines=+%3E+Ryoku+Developer;%3E+Serial+Config+Editor;+%3E+NixOS+Fanboy;+%3ECreator+of+..things;Just+Code+Nig alt="Typing SVG" />
 </p>
 
-<p align="center">
-Building reliable backend systems with clean architecture and scalable solutions.
-</p>
-
-
 ##  <h2 align="center">🚀 About Me </h2>
 
 <img align="right" src="./assets/astro-removebg-preview.png" width="280" alt="Developer Illustration"/>
 
-**Shaddy**, Here  — a final-year Computer Engineering student focused on backend development.
-
-I enjoy building scalable, production-ready APIs with Python and continuously improving my understanding of real-world backend systems.
-
-Currently, I'm learning **FastAPI, PostgreSQL, SQLAlchemy, Docker, and Redis**, while sharpening my problem-solving skills through **Data Structures & Algorithms**.
-
-My goal is simple: write clean code, build reliable software, and grow into a software engineer who creates systems that last.
 
 <br clear="right"/>
 
