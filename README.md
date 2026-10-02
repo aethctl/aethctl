@@ -24,7 +24,7 @@ Right now, my main focus is expanding Ryoku across multiple distributions, impro
 
 My goal is simple: build software I genuinely want to use, keep learning by breaking things in increasingly sophisticated ways, and make Linux desktops feel polished without sacrificing what makes them fun.
 
-<h2 align="center">緑 Ryoku</h2>
+<h2 align="center">⛩️ Ryoku</h2>
 
 <p align="center">
   <img src="./assets/ryoku-logo-white.png" width="95" alt="Ryoku" />
@@ -42,10 +42,6 @@ My goal is simple: build software I genuinely want to use, keep learning by brea
 
 <p align="center">
   <code>NixOS</code>
-  &nbsp;•&nbsp;
-  <code>Arch Linux</code>
-  &nbsp;•&nbsp;
-  <code>Fedora</code>
   &nbsp;•&nbsp;
   <code>Hyprland</code>
   &nbsp;•&nbsp;
