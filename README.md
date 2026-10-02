@@ -7,7 +7,7 @@
 <h3 align="center">Linux Developer</h3>
 
 <p align="center">
-  <img src= https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=60&lines=+%3E+Start+Debugging+The+Chaos;%3E+Serial+Config+Editor;+%3E+NixOS+Fanboy%2C+It's++Staying;Just+Code+Nig alt="Typing SVG" />
+  <img src= https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=60&lines=+%3E+Start+Debugging+The+Chaos;%3E+Serial+Config+Editor;+%3E+NixOS+Fanboy%2CRyoku+Developer;Just+Code+Nig alt="Typing SVG" />
 </p>
 
 <p align="center">
