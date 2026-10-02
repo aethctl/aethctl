@@ -42,23 +42,33 @@ My goal is simple: build software I genuinely want to use, keep learning by brea
 <h2 align="center">💻 Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,mysql,docker,git,github,vscode,html,css,c,aws" />
+  <img src="https://cdn.simpleicons.org/linux/ffffff" height="46" alt="Linux" title="Linux" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nixos/ffffff" height="46" alt="NixOS" title="NixOS" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/archlinux/ffffff" height="46" alt="Arch Linux" title="Arch Linux" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fedora/ffffff" height="46" alt="Fedora" title="Fedora" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/gnubash/ffffff" height="46" alt="Bash" title="Bash" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/go/ffffff" height="46" alt="Go" title="Go" />
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="48" alt="NumPy" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="48" alt="Pandas" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="48" alt="OpenCV" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="48" alt="TensorFlow" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="48" alt="PyTorch" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="48" alt="Jupyter" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="48" alt="Google Cloud" />
+  <img src="https://cdn.simpleicons.org/qt/ffffff" height="46" alt="Qt / QML" title="Qt / QML" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/python/ffffff" height="46" alt="Python" title="Python" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/lua/ffffff" height="46" alt="Lua" title="Lua" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/javascript/ffffff" height="46" alt="JavaScript" title="JavaScript" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/ffffff" height="46" alt="Git" title="Git" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/ffffff" height="46" alt="GitHub" title="GitHub" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/ffffff" height="46" alt="Docker" title="Docker" />
 </p>
 
 <h2 align="center">📊 GitHub Stats</h2>
@@ -87,10 +97,4 @@ My goal is simple: build software I genuinely want to use, keep learning by brea
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/midnightshady/midnightshady/output/pacman-contribution-graph-dark.svg">
-</p>
-
-<h2 align="center">⌘ Philosophy</h2>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote"/>
 </p>
