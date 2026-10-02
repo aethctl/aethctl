@@ -24,6 +24,46 @@ Right now, my main focus is expanding Ryoku across multiple distributions, impro
 
 My goal is simple: build software I genuinely want to use, keep learning by breaking things in increasingly sophisticated ways, and make Linux desktops feel polished without sacrificing what makes them fun.
 
+<h2 align="center">緑 Ryoku</h2>
+
+<p align="center">
+  <img src="./assets/ryoku-logo-white.png" width="95" alt="Ryoku" />
+</p>
+
+<p align="center">
+  <strong>A polished Wayland desktop built around Linux, customization and actual usability.</strong>
+</p>
+
+<p align="center">
+  Ryoku is the project I spend most of my time building and contributing to.
+  It combines a custom desktop shell, system tooling, theming, applications
+  and compositor integration into one cohesive Linux environment.
+</p>
+
+<p align="center">
+  <code>NixOS</code>
+  &nbsp;•&nbsp;
+  <code>Arch Linux</code>
+  &nbsp;•&nbsp;
+  <code>Fedora</code>
+  &nbsp;•&nbsp;
+  <code>Hyprland</code>
+  &nbsp;•&nbsp;
+  <code>niri</code>
+  &nbsp;•&nbsp;
+  <code>Quickshell</code>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Ryoku-dev/ryoku">
+    <img src="https://img.shields.io/badge/Ryoku-Core-111318?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=111318&color=22252b" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/aethctl/Ryoku-on-NixOS">
+    <img src="https://img.shields.io/badge/Ryoku-NixOS-111318?style=for-the-badge&logo=nixos&logoColor=ffffff&labelColor=111318&color=22252b" />
+  </a>
+</p>
+
 <br clear="right"/>
 
 <h2 align="center">🤝 Connect</h2>
