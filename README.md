@@ -16,13 +16,13 @@
 ##  <h2 align="center">🚀 About Me </h2>
 
 <img align="right" src="./assets/astro-removebg-preview.png" width="280" alt="Developer Illustration"/>
-I spend most of my time building and maintaining Ryoku, experimenting with NixOS, working on Linux tooling, and turning Wayland desktops into things that are probably far more complicated than they ever needed to be.
+I spend most of my time building and maintaining Ryoku on NixOS, Creating fastfetch configs, Editing my /etc/nixos/ directory and turning Window Managers into insane masterpieces.
 
 I’m especially interested in Linux systems, Nix, Go, QML, Quickshell, Wayland, desktop environments, system tooling, and UI/UX, with an unhealthy amount of time also dedicated to ricing and making everything feel cohesive.
 
-Right now, my main focus is expanding Ryoku across multiple distributions, improving its tooling and reliability, and learning more about how Linux systems actually fit together under the hood.
+Right now, my main focus is expanding Ryoku on NixOS into the most complete, polished and unique experience you can get on NixOS and on Linux in general.
 
-My goal is simple: build software I genuinely want to use, keep learning by breaking things in increasingly sophisticated ways, and make Linux desktops feel polished without sacrificing what makes them fun.
+My goal is simple: build things I genuinely want to use, keep learning by breaking things in increasingly sophisticated ways, and make Linux desktops feel polished without sacrificing what makes them fun.
 
 <h2 align="center">⛩️ Ryoku</h2>
 
@@ -31,13 +31,13 @@ My goal is simple: build software I genuinely want to use, keep learning by brea
 </p>
 
 <p align="center">
-  <strong>A polished Wayland desktop built around Linux, customization and actual usability.</strong>
+  <strong>A polished and complete shell built around Quickshell, customization and actual usability.</strong>
 </p>
 
 <p align="center">
   Ryoku is the project I spend most of my time building and contributing to.
   It combines a custom desktop shell, system tooling, theming, applications
-  and compositor integration into one cohesive Linux environment.
+  and compositor integration into one cohesive and easy to use shell
 </p>
 
 <p align="center">
