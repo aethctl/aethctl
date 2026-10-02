@@ -13,11 +13,17 @@
 ##  <h2 align="center">🚀 About Me </h2>
 
 <img align="right" src="./assets/astro-removebg-preview.png" width="280" alt="Developer Illustration"/>
+I spend most of my time building and maintaining Ryoku, experimenting with NixOS, working on Linux tooling, and turning Wayland desktops into things that are probably far more complicated than they ever needed to be.
 
+I’m especially interested in Linux systems, Nix, Go, QML, Quickshell, Wayland, desktop environments, system tooling, and UI/UX, with an unhealthy amount of time also dedicated to ricing and making everything feel cohesive.
+
+Right now, my main focus is expanding Ryoku across multiple distributions, improving its tooling and reliability, and learning more about how Linux systems actually fit together under the hood.
+
+My goal is simple: build software I genuinely want to use, keep learning by breaking things in increasingly sophisticated ways, and make Linux desktops feel polished without sacrificing what makes them fun.
 
 <br clear="right"/>
 
- <h2 align="center">🤝 Connect</h2>
+<h2 align="center">🤝 Connect</h2>
 
 <p align="center">
   <a href="https://github.com/midnightshady">
