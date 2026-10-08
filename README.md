@@ -1,113 +1,165 @@
 <p align="center">
-  <img src="./assets/ascihand-removebg-preview.png" alt="Banner" width="100%">
+  <img src="./assets/ascihand-removebg-preview.png" alt="Aether banner" width="100%">
 </p>
 
-<h1 align="center">Hey 👋, I'm Aether </h1>
-
-<h3 align="center">Linux Developer</h3>
+<h1 align="center">Hey 👋, I'm Aether</h1>
+<h3 align="center">Linux developer · NixOS enthusiast · Ryoku contributor</h3>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=60&lines=%3E+Ryoku+Developer;%3E+Serial+Config+Editor;%3E+NixOS+Fanboy;%3E+Creator+of+..things;Aesthetics+%3E+Function"
-    alt="Typing SVG"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=760&height=60&lines=%3E+Ryoku+Developer;%3E+NixOS+Fanboy;%3E+Wayland+%2B+Quickshell;%3E+Desktop+UI%2FUX;%3E+Aesthetics+%C3%97+Function"
+    alt="Typing introduction"
   />
 </p>
 
-##  <h2 align="center">🚀 About Me </h2>
-
-<img align="right" src="./assets/astro-removebg-preview.png" width="280" alt="Developer Illustration"/>
-I spend most of my time building and maintaining Ryoku on NixOS, Creating fastfetch configs, Editing my /etc/nixos/ directory and turning Window Managers into insane masterpieces.
-
-I’m especially interested in Linux systems, Nix, Go, QML, Quickshell, Wayland, desktop environments, system tooling, and UI/UX, with an unhealthy amount of time also dedicated to ricing and making everything feel cohesive.
-
-Right now, my main focus is expanding Ryoku on NixOS into the most complete, polished and unique experience you can get on NixOS and on Linux in general.
-
-My goal is simple: build things I genuinely want to use, keep learning by breaking things in increasingly sophisticated ways, and make Linux desktops feel polished without sacrificing what makes them fun.
-
-<h2 align="center">⛩️ Ryoku</h2>
-
-<img
-  align="left"
-  src="./assets/ryoku-logo-white.png"
-  width="220"
-  alt="Ryoku"
-/>
-
-<p>
-  <strong>A polished Wayland desktop built around Linux, customization and actual usability.</strong>
+<p align="center">
+  <a href="https://github.com/aethctl/Ryoku-on-NixOS">
+    <img src="https://img.shields.io/badge/Ryoku_on_NixOS-Repository-111318?style=for-the-badge&logo=nixos&logoColor=ffffff&labelColor=111318&color=22252b" alt="Ryoku on NixOS repository" />
+  </a>
+  <a href="https://aethctl.github.io/Ryoku-on-NixOS/">
+    <img src="https://img.shields.io/badge/Ryoku_on_NixOS-Website-111318?style=for-the-badge&logo=firefoxbrowser&logoColor=ffffff&labelColor=111318&color=22252b" alt="Ryoku on NixOS website" />
+  </a>
+  <a href="https://discord.gg/8KjBmUEyKA">
+    <img src="https://img.shields.io/badge/Ryoku-Discord-111318?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=111318&color=22252b" alt="Ryoku Discord" />
+  </a>
 </p>
 
-<p>
-  Ryoku is the project I spend most of my time building and contributing to.
-  It combines a custom desktop shell, system tooling, theming, applications,
-  and compositor integration into one cohesive Linux environment.
+<h2 align="center">About me</h2>
+
+<img align="right" src="./assets/astro-removebg-preview.png" width="250" alt="Developer illustration" />
+
+I spend most of my time building and maintaining **Ryoku on NixOS**, contributing fixes and features across the wider Ryoku ecosystem, and turning Linux desktops into things that feel deliberate rather than assembled from unrelated config files.
+
+I'm especially interested in **NixOS, Go, QML, Quickshell, Wayland, compositor integration, system tooling and UI/UX**. I like software that is technically clean, visually cohesive and actually pleasant to use.
+
+Right now my main focus is pushing Ryoku on NixOS toward a complete, deeply customisable desktop experience while keeping the Nix side reproducible, maintainable and easy to recover.
+
+<br clear="right" />
+
+---
+
+<h2 align="center">⛩️ Ryoku on NixOS</h2>
+
+<p align="center">
+  <strong>The Ryoku you already know, made declarative for NixOS.</strong>
 </p>
 
-<p>
-  My work around Ryoku focuses heavily on NixOS support, 
-  desktop tooling, compositor support and making the whole thing feel just
-  as good as it does on Arch Linux and CachyOS.
+<p align="center">
+  <a href="https://github.com/aethctl/Ryoku-on-NixOS">
+    <img src="https://raw.githubusercontent.com/aethctl/Ryoku-on-NixOS/main/docs/readme/assets/ui/desktop.png" alt="Ryoku on NixOS desktop" width="92%" />
+  </a>
 </p>
 
-<p>
+Ryoku is more than a shell. It combines a custom desktop shell, theming, system tooling, applications, compositor integration and a growing ecosystem into one cohesive environment.
+
+My work focuses on bringing that experience to NixOS without throwing away what makes NixOS useful in the first place: **declarative configuration, generations, rollback and reproducible system integration**.
+
+<p align="center">
   <code>NixOS</code>
   &nbsp;•&nbsp;
   <code>Hyprland</code>
   &nbsp;•&nbsp;
-  <code>niri</code>
+  <code>Niri</code>
   &nbsp;•&nbsp;
   <code>Quickshell</code>
+  &nbsp;•&nbsp;
+  <code>QML</code>
+  &nbsp;•&nbsp;
+  <code>Go</code>
 </p>
 
-<br>
-
-<h2 align="center">✨ Specs</h2>
-
-**OS:** NixOS 26.11 (Zokor)
-<br>
-**KER:** 7.2.8-cachy
-<br>
-**CPU:** AMD Ryzen 5 5600X @ 4.70 GHz
-<br>
-**GPU:** NVIDIA GeForce RTX 5060 8gb @ 2280MHz
-<br>
-**MEM:** 32gb DDR4 @ 3600MHz
-<br>
-**WM:** niri 26.04
-<br>
-**SHELL** Ryoku on NixOS
-<br>
-
-<p>
-  <a href="https://github.com/Ryoku-dev/ryoku">
-    <img src="https://img.shields.io/badge/Ryoku-Core-111318?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=111318&color=22252b" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/aethctl/Ryoku-on-NixOS">
-    <img src="https://img.shields.io/badge/Ryoku-NixOS-111318?style=for-the-badge&logo=nixos&logoColor=ffffff&labelColor=111318&color=22252b" />
-  </a>
+<p align="center">
+  <a href="https://github.com/aethctl/Ryoku-on-NixOS"><strong>Repository</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://aethctl.github.io/Ryoku-on-NixOS/"><strong>Website</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://discord.gg/8KjBmUEyKA"><strong>Discord</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Ryoku-dev/ryoku"><strong>Upstream Ryoku</strong></a>
 </p>
 
-<br clear="left"/>
+---
 
+<h2 align="center">What I'm building</h2>
 
-<h2 align="center">🤝 Connect</h2>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/aethctl/Ryoku-on-NixOS">Ryoku on NixOS</a></h3>
+      Maintained NixOS port of the Ryoku desktop, with native packaging, modules, installer integration and NixOS-specific runtime bridges.
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/aethctl/why">why</a></h3>
+      A Linux diagnostics CLI that answers questions like <code>why git</code>, <code>why :8080</code> and <code>why 4312</code> using evidence from the system.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Ryoku-dev/ryoku">Ryoku</a></h3>
+      Upstream desktop work across shell behaviour, compositor support, performance, tooling and the wider Ryoku ecosystem.
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/aethctl/ryomanager">RyoManager</a></h3>
+      A Ryoku-native system task manager built around the same visual and interaction language as the rest of the desktop.
+    </td>
+  </tr>
+</table>
+
+---
+
+<h2 align="center">Tech I keep breaking responsibly</h2>
+
+<p align="center">
+  <img src="https://cdn.simpleicons.org/linux/ffffff" height="42" alt="Linux" title="Linux" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nixos/ffffff" height="42" alt="NixOS" title="NixOS" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/archlinux/ffffff" height="42" alt="Arch Linux" title="Arch Linux" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/go/ffffff" height="42" alt="Go" title="Go" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/qt/ffffff" height="42" alt="Qt / QML" title="Qt / QML" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/python/ffffff" height="42" alt="Python" title="Python" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/lua/ffffff" height="42" alt="Lua" title="Lua" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/ffffff" height="42" alt="Git" title="Git" />
+</p>
+
+<details>
+  <summary><strong>My current setup</strong></summary>
+  <br />
+
+**OS:** NixOS 26.11 (Zokor)<br>
+**Kernel:** 7.2.8-cachy<br>
+**CPU:** AMD Ryzen 5 5600X<br>
+**GPU:** NVIDIA GeForce RTX 5060 8GB<br>
+**Memory:** 32GB<br>
+**WM:** Niri<br>
+**Desktop:** Ryoku on NixOS
+
+</details>
+
+---
+
+<h2 align="center">Connect</h2>
 
 <p align="center">
   <a href="https://github.com/aethctl">
-    <img src="https://cdn.simpleicons.org/github/ffffff" height="42" alt="GitHub" title="GitHub: aethctl" />
+    <img src="https://cdn.simpleicons.org/github/ffffff" height="38" alt="GitHub" title="GitHub: aethctl" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://x.com/aethctl">
-    <img src="https://cdn.simpleicons.org/x/ffffff" height="42" alt="X" title="X: @aethctl" />
+    <img src="https://cdn.simpleicons.org/x/ffffff" height="38" alt="X" title="X: @aethctl" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://discord.gg/8KjBmUEyKA">
+    <img src="https://cdn.simpleicons.org/discord/ffffff" height="38" alt="Discord" title="Ryoku Discord" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://steamcommunity.com/id/aethctl">
-    <img src="https://cdn.simpleicons.org/steam/ffffff" height="42" alt="Steam" title="Steam: aethctl" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://discord.com/app">
-    <img src="https://cdn.simpleicons.org/discord/ffffff" height="42" alt="Discord" title="Discord: aethctl." />
+    <img src="https://cdn.simpleicons.org/steam/ffffff" height="38" alt="Steam" title="Steam: aethctl" />
   </a>
 </p>
 
@@ -117,60 +169,27 @@ My goal is simple: build things I genuinely want to use, keep learning by breaki
     &nbsp;•&nbsp;
     X: <strong>@aethctl</strong>
     &nbsp;•&nbsp;
-    Discord: <strong>aethctl.</strong>
+    Discord: <strong>Ryoku community</strong>
     &nbsp;•&nbsp;
     Steam: <strong>aethctl</strong>
   </sub>
 </p>
 
-
-<h2 align="center">💻 Tech Stack</h2>
-
-<p align="center">
-  <img src="https://cdn.simpleicons.org/linux/ffffff" height="46" alt="Linux" title="Linux" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/nixos/ffffff" height="46" alt="NixOS" title="NixOS" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/archlinux/ffffff" height="46" alt="Arch Linux" title="Arch Linux" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/fedora/ffffff" height="46" alt="Fedora" title="Fedora" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/gnubash/ffffff" height="46" alt="Bash" title="Bash" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/go/ffffff" height="46" alt="Go" title="Go" />
-</p>
-
-<p align="center">
-  <img src="https://cdn.simpleicons.org/qt/ffffff" height="46" alt="Qt / QML" title="Qt / QML" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/python/ffffff" height="46" alt="Python" title="Python" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/lua/ffffff" height="46" alt="Lua" title="Lua" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/javascript/ffffff" height="46" alt="JavaScript" title="JavaScript" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/git/ffffff" height="46" alt="Git" title="Git" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/github/ffffff" height="46" alt="GitHub" title="GitHub" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/docker/ffffff" height="46" alt="Docker" title="Docker" />
-</p>
-
-<h2 align="center">⌘ Commit Activity</h2>
+<h2 align="center">⌘ Commit activity</h2>
 
 <p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/aethctl/aethctl./output/pacman-contribution-graph-dark.svg"
+      srcset="https://raw.githubusercontent.com/aethctl/aethctl/output/pacman-contribution-graph-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/aethctl/aethctl./output/pacman-contribution-graph.svg"
+      srcset="https://raw.githubusercontent.com/aethctl/aethctl/output/pacman-contribution-graph.svg"
     />
     <img
       alt="Aethctl's Pac-Man contribution graph"
-      src="https://raw.githubusercontent.com/aethctl/aethctl./output/pacman-contribution-graph-dark.svg"
+      src="https://raw.githubusercontent.com/aethctl/aethctl/output/pacman-contribution-graph-dark.svg"
     />
   </picture>
 </p>
