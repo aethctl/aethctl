@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 56" width="880" height="56" role="img" aria-label="Colophon">
+<title>Colophon</title>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#e9e5db}
+.d{font-family:'Arial Narrow','Roboto Condensed',Arial,sans-serif;font-weight:900;fill:#e9e5db}
+.dim{fill-opacity:.5}.mid{fill-opacity:.72}.sig{fill:#ff4d4d}.hair{stroke:rgba(233,229,219,.16);stroke-width:1}
+.ln{fill:none;stroke:#e9e5db;stroke-opacity:.5}.fill{fill:#e9e5db}.ar{fill:none;stroke:#ff4d4d;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<text class="m dim" x="32" y="24" font-size="10">© 2026 Aether · generated SVG profile · light/dark aware · motion lives inside each panel</text><text class="m dim" x="32" y="42" font-size="10">live repository stats refresh daily from GitHub · source: profile/build.mjs</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" width="220" height="64" role="img" aria-label="steam">
+<title>steam</title>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#0e0e0c}
+.d{font-family:'Arial Narrow','Roboto Condensed',Arial,sans-serif;font-weight:900;fill:#0e0e0c}
+.dim{fill-opacity:.5}.mid{fill-opacity:.72}.sig{fill:#ff4d4d}.hair{stroke:rgba(14,14,12,.16);stroke-width:1}
+.ln{fill:none;stroke:#0e0e0c;stroke-opacity:.5}.fill{fill:#0e0e0c}.ar{fill:none;stroke:#ff4d4d;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+@keyframes nudge{0%,70%,100%{transform:none}80%{transform:translate(3px,-3px)}}.nudge{animation-delay:1.05s;animation:nudge 3.2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<line class="hair" x1="32" x2="188" y1=".5" y2=".5"/><text class="m dim" x="32" y="26">04</text><text class="m" x="32" y="48" font-size="14">steam</text><g class="nudge"><path class="ar" d="M85.4,46L93.4,38M87.80000000000001,38H93.4V43.6"/></g>
+</svg>

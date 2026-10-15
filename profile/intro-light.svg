@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 182" width="880" height="182" role="img" aria-label="I build Linux desktop systems, with most of my work focused on Ryoku on NixOS.">
+<title>I build Linux desktop systems, with most of my work focused on Ryoku on NixOS.</title>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#0e0e0c}
+.d{font-family:'Arial Narrow','Roboto Condensed',Arial,sans-serif;font-weight:900;fill:#0e0e0c}
+.dim{fill-opacity:.5}.mid{fill-opacity:.72}.sig{fill:#ff4d4d}.hair{stroke:rgba(14,14,12,.16);stroke-width:1}
+.ln{fill:none;stroke:#0e0e0c;stroke-opacity:.5}.fill{fill:#0e0e0c}.ar{fill:none;stroke:#ff4d4d;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+@keyframes nudge{0%,70%,100%{transform:none}80%{transform:translate(3px,-3px)}}.nudge{animation:nudge 3.2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<text class="m" x="32" y="34" font-size="15">I build Linux desktop systems that feel deliberate instead of assembled from unrelated</text>
+<text class="m" x="32" y="60" font-size="15">config files. Most of my time goes into Ryoku on NixOS: packaging the shell,</text>
+<text class="m" x="32" y="86" font-size="15">integrating compositors, fixing platform-specific breakage, and keeping the whole</text>
+<text class="m" x="32" y="112" font-size="15">experience reproducible without sanding off what makes NixOS useful.</text><text class="m sig" x="32" y="158" font-size="13">aethctl.github.io/Ryoku-on-NixOS</text><g class="nudge"><path class="ar" d="M280,157L288,149M282.4,149H288V154.6"/></g><text class="m dim" x="305" y="158">the flagship, running on NixOS</text>
+</svg>

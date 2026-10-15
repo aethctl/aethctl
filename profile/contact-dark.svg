@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 238" width="880" height="238" role="img" aria-label="Find Aether online as aethctl.">
+<title>Find Aether online as aethctl.</title>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#e9e5db}
+.d{font-family:'Arial Narrow','Roboto Condensed',Arial,sans-serif;font-weight:900;fill:#e9e5db}
+.dim{fill-opacity:.5}.mid{fill-opacity:.72}.sig{fill:#ff4d4d}.hair{stroke:rgba(233,229,219,.16);stroke-width:1}
+.ln{fill:none;stroke:#e9e5db;stroke-opacity:.5}.fill{fill:#e9e5db}.ar{fill:none;stroke:#ff4d4d;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+@keyframes wide{0%,8%{transform:scaleX(.63)}40%,82%{transform:scaleX(1)}96%,100%{transform:scaleX(.63)}}.wide{animation:wide 10s cubic-bezier(.65,0,.35,1) infinite;transform-box:fill-box;transform-origin:left}@keyframes nudge{0%,70%,100%{transform:none}80%{transform:translate(3px,-3px)}}.nudge{animation:nudge 3.2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+
+<text class="m" x="32" y="30"><tspan class="sig">07</tspan> / exit 0</text>
+<text class="m dim" x="848" y="30" text-anchor="end">github · x · discord · steam</text>
+<line class="hair" x1="32" x2="848" y1="44.5" y2="44.5"/><text class="d" x="32" y="92" font-size="36">FIND ME IN THE SHELL.</text><text class="d sig wide" x="32" y="182" font-size="82">@AETHCTL</text><text class="m dim" x="32" y="216">click through below</text><g class="nudge"><path class="ar" d="M142,215L150,207M144.4,207H150V212.6"/></g>
+</svg>
