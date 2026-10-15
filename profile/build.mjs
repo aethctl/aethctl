@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
 
 const DIR = new URL('./', import.meta.url)
 const USER = 'aethctl'
@@ -429,15 +430,23 @@ const SECTIONS = [
 ]
 
 const alts = {}
+const versions = {}
 for (const sec of SECTIONS) {
   for (const theme of Object.keys(THEMES)) {
     const out = sec.make(theme)
     alts[sec.name] = out.match(/aria-label="([^"]*)"/)?.[1] || sec.name
+    versions[`${sec.name}-${theme}`] = createHash('sha256')
+      .update(out)
+      .digest('hex')
+      .slice(0, 12)
     writeFileSync(new URL(`${sec.name}-${theme}.svg`, DIR), out)
   }
 }
 
-const pic = (sec) => `<a href="${sec.href}"><picture><source media="(prefers-color-scheme: dark)" srcset="${RAW}${sec.name}-dark.svg"><img src="${RAW}${sec.name}-light.svg" width="${sec.width || '100%'}" alt="${alts[sec.name]}"></picture></a>`
+const asset = (name, theme) =>
+  `${RAW}${name}-${theme}.svg?v=${versions[`${name}-${theme}`]}`
+
+const pic = (sec) => `<a href="${sec.href}"><picture><source media="(prefers-color-scheme: dark)" srcset="${asset(sec.name, 'dark')}"><img src="${asset(sec.name, 'light')}" width="${sec.width || '100%'}" alt="${alts[sec.name]}"></picture></a>`
 const blocks = []
 for (const sec of SECTIONS) {
   const prev = blocks[blocks.length - 1]

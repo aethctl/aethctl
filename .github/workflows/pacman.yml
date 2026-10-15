@@ -1,0 +1,70 @@
+name: Generate Pac-Man contribution graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate Pac-Man contribution graph
+        uses: abozanona/pacman-contribution-graph@v5.0.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: "pacman"
+          player_style: "opportunistic"
+
+      - name: Convert graph to monochrome
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          for path in Path("dist").glob("*.svg"):
+              svg = path.read_text(encoding="utf-8")
+
+              start = svg.find(">")
+              if start == -1:
+                  raise RuntimeError(f"Invalid SVG: {path}")
+
+              filter_block = """
+          <defs>
+            <filter id="aethctl-monochrome">
+              <feColorMatrix
+                type="matrix"
+                values="
+                  0.2126 0.7152 0.0722 0 0
+                  0.2126 0.7152 0.0722 0 0
+                  0.2126 0.7152 0.0722 0 0
+                  0      0      0      1 0
+                "
+              />
+            </filter>
+          </defs>
+          <g filter="url(#aethctl-monochrome)">
+          """
+
+              svg = svg[:start + 1] + filter_block + svg[start + 1:]
+              svg = svg.rsplit("</svg>", 1)[0] + "</g></svg>"
+
+              path.write_text(svg, encoding="utf-8")
+              print(f"Monochromed {path}")
+          PY
+
+      - name: Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
