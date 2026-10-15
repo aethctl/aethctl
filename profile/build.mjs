@@ -48,7 +48,7 @@ const appear = (id, on, off = 0.92, dur = 10) =>
   `@keyframes ${id}{0%,${pct(Math.max(0, on - 0.001))}{opacity:0}${pct(on)},${pct(off)}{opacity:1}${pct(Math.min(1, off + 0.04))},100%{opacity:0}}.${id}{animation:${id} ${dur}s linear infinite}`
 
 const header = (num, title) => `
-<text class="m" x="${PAD}" y="30"><tspan class="sig">${num}</tspan> / ${esc(title)}</text>
+<text class="m" x="${PAD}" y="30"><tspan class="sig">${num}</tspan> ${esc(title)}</text>
 <line class="hair" x1="${PAD}" x2="${W - PAD}" y1="44.5" y2="44.5"/>`
 
 const upRight = (x, y, s = 8) => `<path class="ar" d="M${x},${y + s}L${x + s},${y}M${x + s * 0.3},${y}H${x + s}V${y + s * 0.7}"/>`
@@ -72,10 +72,7 @@ ${body}
 }
 
 function surface(theme) {
-  const names = [
-    { text: 'AETHER', y: 168, size: 104, cell: 124 },
-    { text: 'AETHCTL', y: 251, size: 83, cell: 103 },
-  ]
+  const line = { text: 'AETHCTL', y: 205, size: 108, span: 560 }
   const STEPS = 32
   const DUR = 9
   let css = ''
@@ -83,38 +80,35 @@ function surface(theme) {
 <text class="m" x="${PAD}" y="30">aethctl <tspan class="sig">@</tspan> linux</text>
 <line class="hair" x1="${PAD}" x2="${W - PAD}" y1="44.5" y2="44.5"/>`
 
-  names.forEach((line, li) => {
-    const chars = [...line.text]
-    const span = W - PAD * 2
-    const step = span / chars.length
-    chars.forEach((ch, i) => {
-      const id = `lens${li}_${i}`
-      const frames = []
-      for (let s = 0; s <= STEPS; s++) {
-        const p = s / STEPS
-        const phase = p < 0.46 ? p / 0.46 : p < 0.54 ? null : (1 - p) / 0.46
-        if (phase === null) {
-          frames.push('transform:scaleX(1) translateX(0px)')
-          continue
-        }
-        const lens = phase * 1.35 - 0.18
-        const c = (i + 0.5) / chars.length
-        const bump = Math.exp(-(((c - lens) / 0.14) ** 2))
-        const scale = 1 + bump * 0.42
-        const drift = (bump - 0.16) * (i - (chars.length - 1) / 2) * 2.8
-        frames.push(`transform:scaleX(${r(scale, 3)}) translateX(${r(drift, 1)}px)`)
+  const chars = [...line.text]
+  const step = line.span / chars.length
+  const start = (W - line.span) / 2
+  chars.forEach((ch, i) => {
+    const id = `lens0_${i}`
+    const frames = []
+    for (let s = 0; s <= STEPS; s++) {
+      const p = s / STEPS
+      const phase = p < 0.46 ? p / 0.46 : p < 0.54 ? null : (1 - p) / 0.46
+      if (phase === null) {
+        frames.push('transform:scaleX(1) translateX(0px)')
+        continue
       }
-      css += `@keyframes ${id}{${keyframes(frames, STEPS)}}.${id}{animation:${id} ${DUR}s linear infinite;transform-box:fill-box;transform-origin:center}`
-      body += `<text class="d ${id}" x="${r(PAD + i * step + step / 2, 1)}" y="${line.y}" text-anchor="middle" font-size="${line.size}">${ch}</text>`
-    })
-    css += `@keyframes bar${li}{0%{transform:translateX(-180px);opacity:0}10%{opacity:1}44%{transform:translateX(810px);opacity:1}51%,100%{opacity:0}}.bar${li}{animation:bar${li} ${DUR}s ease-in-out infinite;animation-delay:${li * 0.3}s}`
-    body += `<clipPath id="clip${li}"><rect x="${PAD}" y="${line.y + 12}" width="${span}" height="8"/></clipPath><g clip-path="url(#clip${li})"><rect class="bar${li}" x="${PAD}" y="${line.y + 14}" width="150" height="3" fill="${SIGNAL}"/></g>`
+      const lens = phase * 1.35 - 0.18
+      const c = (i + 0.5) / chars.length
+      const bump = Math.exp(-(((c - lens) / 0.14) ** 2))
+      const scale = 1 + bump * 0.38
+      const drift = (bump - 0.12) * (i - (chars.length - 1) / 2) * 1.35
+      frames.push(`transform:scaleX(${r(scale, 3)}) translateX(${r(drift, 1)}px)`)
+    }
+    css += `@keyframes ${id}{${keyframes(frames, STEPS)}}.${id}{animation:${id} ${DUR}s linear infinite;transform-box:fill-box;transform-origin:center}`
+    body += `<text class="d ${id}" x="${r(start + i * step + step / 2, 1)}" y="${line.y}" text-anchor="middle" font-size="${line.size}">${ch}</text>`
   })
-
+  css += `@keyframes bar0{0%{transform:translateX(-180px);opacity:0}10%{opacity:1}44%{transform:translateX(810px);opacity:1}51%,100%{opacity:0}}.bar0{animation:bar0 ${DUR}s ease-in-out infinite}`
+  body += `<clipPath id="clip0"><rect x="${PAD}" y="${line.y + 16}" width="${W - PAD * 2}" height="8"/></clipPath><g clip-path="url(#clip0)"><rect class="bar0" x="${PAD}" y="${line.y + 18}" width="150" height="3" fill="${SIGNAL}"/></g>`
   body += `
-<line class="hair" x1="${PAD}" x2="${W - PAD}" y1="280.5" y2="280.5"/>`
+<line class="hair" x1="${PAD}" x2="${W - PAD}" y1="262.5" y2="262.5"/>`
 
-  return svg(theme, 300, css, body, 'Aether, aethctl. Linux desktop developer.')
+  return svg(theme, 282, css, body, 'aethctl. Linux desktop developer.')
 }
 
 function intro(theme) {
@@ -144,7 +138,7 @@ function layers(theme) {
   const cx = x0 + sk / 2 + sw / 2
   const hit = [0.16, 0.32, 0.48, 0.64]
   let css = ''
-  let body = `${header('02', 'the stack', 'follow the packet down')}<text class="d" x="${PAD}" y="92" font-size="36">ONE DESKTOP, FOUR LAYERS.</text>`
+  let body = `${header('02', 'the stack')}<text class="d" x="${PAD}" y="92" font-size="36">ONE DESKTOP, FOUR LAYERS.</text>`
 
   L.forEach(([id, name, tags, log], i) => {
     const y = top + gap * i
@@ -248,7 +242,7 @@ const DEVICES = {
 }
 
 function workHead(theme) {
-  return svg(theme, 112, '', `${header('03', 'selected work', 'each row opens its repository')}<text class="d" x="${PAD}" y="92" font-size="36">EACH ON ITS OWN HARDWARE.</text>`, 'Selected work, each on its own hardware.')
+  return svg(theme, 62, '', `${header('03', 'selected work')}`, 'Selected work.')
 }
 
 function workRow(theme, p, i) {
@@ -256,7 +250,7 @@ function workRow(theme, p, i) {
   const dev = DEVICES[p.device]()
   const name = p.name.toUpperCase()
   const arrowX = Math.min(580, PAD + 14 + name.length * 20)
-  const body = `<line class="hair" x1="${PAD}" x2="${W - PAD}" y1=".5" y2=".5"/><text class="m sig" x="${PAD}" y="26">03.${i + 1}</text><text class="m dim" x="${PAD + 44}" y="26">${esc(p.on)}</text><text class="d" x="${PAD}" y="64" font-size="32">${esc(name)}</text><g class="nudge">${upRight(arrowX, 43, 13)}</g>${lines.slice(0, 3).map((l, j) => `<text class="m mid" x="${PAD}" y="${90 + j * 16}">${esc(l)}</text>`).join('')}<g transform="translate(${W - PAD - DEV_W},22)">${dev.body}</g>`
+  const body = `<line class="hair" x1="${PAD}" x2="${W - PAD}" y1=".5" y2=".5"/><text class="m sig" x="${PAD}" y="26">03.${i + 1}</text><text class="d" x="${PAD}" y="64" font-size="32">${esc(name)}</text><g class="nudge">${upRight(arrowX, 43, 13)}</g>${lines.slice(0, 3).map((l, j) => `<text class="m mid" x="${PAD}" y="${90 + j * 16}">${esc(l)}</text>`).join('')}<g transform="translate(${W - PAD - DEV_W},22)">${dev.body}</g>`
   return svg(theme, 142, NUDGE + dev.css, body, `${p.name}: ${p.desc}`)
 }
 
@@ -295,9 +289,9 @@ function signal(theme, data) {
     dots += `<circle class="star" cx="${r(x, 1)}" cy="${r(y, 1)}" r="${i === n - 1 ? 3.4 : 2.5}" fill="${i === n - 1 ? SIGNAL : t.fg}" style="--x:${r(sx, 0)}px;--y:${r(sy, 0)}px;--t:${r(rand() * 0.9, 2)}s"/>`
   }
   const css = '@keyframes star{0%{transform:translate(var(--x),var(--y));opacity:0}22%,80%{transform:none;opacity:1}100%{transform:translate(var(--x),var(--y));opacity:0}}.star{animation:star 10s cubic-bezier(.16,1,.3,1) infinite both;animation-delay:var(--t)}'
-  const stats = [['stars', data.stars], ['forks', data.forks], ['public repos', data.repos], ['flagship', FLAGSHIP]]
-  const body = `${header('04', 'open source', 'counted from the GitHub API, daily')}${dots}<text class="m" x="540" y="92" font-size="13">Every point here belongs to the signal</text><text class="m" x="540" y="112" font-size="13">around <tspan class="sig">${FLAGSHIP}</tspan>.</text>${stats.map(([k, v], i) => `<line class="hair" x1="540" x2="848" y1="${168.5 + i * 32}" y2="${168.5 + i * 32}"/><text class="m dim" x="540" y="${190 + i * 32}">${k}</text><text class="m" x="848" y="${190 + i * 32}" text-anchor="end" font-size="13">${esc(v)}</text>`).join('')}`
-  return svg(theme, 330, css, body, `${data.stars} stars and ${data.forks} forks on ${FLAGSHIP}. ${data.repos} public repositories.`)
+  const stats = [['stars tracked', data.stars], ['forks tracked', data.forks], ['repos tracked', data.repos], ['scope', 'aethctl + ryoku-dev']]
+  const body = `${header('04', 'open source')}${dots}<text class="m" x="540" y="92" font-size="13">Every point here belongs to the wider</text><text class="m" x="540" y="112" font-size="13">open-source signal around <tspan class="sig">aethctl</tspan> and <tspan class="sig">Ryoku</tspan>.</text>${stats.map(([k, v], i) => `<line class="hair" x1="540" x2="848" y1="${168.5 + i * 32}" y2="${168.5 + i * 32}"/><text class="m dim" x="540" y="${190 + i * 32}">${k}</text><text class="m" x="848" y="${190 + i * 32}" text-anchor="end" font-size="13">${esc(v)}</text>`).join('')}`
+  return svg(theme, 330, css, body, `${data.stars} stars and ${data.forks} forks across tracked aethctl and Ryoku repositories. ${data.repos} repositories tracked.`)
 }
 
 function history(theme) {
@@ -362,14 +356,11 @@ function contact(theme) {
 }
 
 const LINKS = [
-  ['github', 'https://github.com/aethctl'],
-  ['x', 'https://x.com/aethctl'],
-  ['discord', 'https://discord.gg/8KjBmUEyKA'],
-  ['steam', 'https://steamcommunity.com/id/aethctl'],
+  ['ryoku nix discord', 'https://discord.gg/8KjBmUEyKA'],
 ]
 
 function chip(theme, [label], i) {
-  const CW = W / 4
+  const CW = W
   const css = NUDGE.replace('.nudge{', `.nudge{animation-delay:${r(i * 0.35)}s;`)
   const body = `<line class="hair" x1="${PAD}" x2="${CW - PAD}" y1=".5" y2=".5"/><text class="m dim" x="${PAD}" y="26">0${i + 1}</text><text class="m" x="${PAD}" y="48" font-size="14">${label}</text><g class="nudge">${upRight(PAD + monoW(label.length, 14) + 10, 38)}</g>`
   return svg(theme, 64, css, body, label, CW)
@@ -388,11 +379,31 @@ async function fetchData() {
     if (!res.ok) throw new Error(`${url}: ${res.status}`)
     return res.json()
   }
-  const [user, flagship] = await Promise.all([
-    get(`https://api.github.com/users/${USER}`),
-    get(`https://api.github.com/repos/${USER}/${FLAGSHIP}`),
+  const fetchRepoSet = async (base) => {
+    const items = []
+    for (let page = 1; ; page++) {
+      const batch = await get(`${base}${base.includes('?') ? '&' : '?'}per_page=100&page=${page}`)
+      items.push(...batch)
+      if (batch.length < 100) break
+    }
+    return items
+  }
+
+  const [userRepos, orgRepos] = await Promise.all([
+    fetchRepoSet(`https://api.github.com/users/${USER}/repos?type=owner&sort=updated`),
+    fetchRepoSet('https://api.github.com/orgs/ryoku-dev/repos?type=public'),
   ])
-  return { stars: flagship.stargazers_count, forks: flagship.forks_count, repos: user.public_repos }
+
+  const merged = new Map()
+  for (const repo of [...userRepos, ...orgRepos]) {
+    if (!repo.fork) merged.set(repo.full_name, repo)
+  }
+  const repos = [...merged.values()]
+  return {
+    stars: repos.reduce((s, r) => s + (r.stargazers_count || 0), 0),
+    forks: repos.reduce((s, r) => s + (r.forks_count || 0), 0),
+    repos: repos.length,
+  }
 }
 
 const cache = new URL('data.json', DIR)
@@ -412,11 +423,9 @@ const SECTIONS = [
   { name: 'layers', href: repo(FLAGSHIP), make: layers },
   { name: 'work', href: `https://github.com/${USER}?tab=repositories`, make: workHead },
   ...WORK.map((p, i) => ({ name: `work-${i + 1}`, href: repo(p.name), make: (th) => workRow(th, p, i), tight: true })),
-  { name: 'signal', href: `${repo(FLAGSHIP)}/stargazers`, make: (th) => signal(th, data) },
+  { name: 'signal', href: `https://github.com/${USER}?tab=repositories`, make: (th) => signal(th, data) },
   { name: 'shell', href: repo(FLAGSHIP), make: shell },
-  { name: 'contact', href: repo(USER), make: contact },
-  ...LINKS.map((l, i) => ({ name: `link-${i + 1}`, href: l[1], make: (th) => chip(th, l, i), width: '25%', row: true })),
-  { name: 'colophon', href: `${repo(USER)}/tree/main/profile`, make: colophon },
+  ...LINKS.map((l, i) => ({ name: `link-${i + 1}`, href: l[1], make: (th) => chip(th, l, i), width: '100%' })),
 ]
 
 const alts = {}

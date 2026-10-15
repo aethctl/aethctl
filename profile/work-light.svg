@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 112" width="880" height="112" role="img" aria-label="Selected work, each on its own hardware.">
-<title>Selected work, each on its own hardware.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 62" width="880" height="62" role="img" aria-label="Selected work.">
+<title>Selected work.</title>
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#0e0e0c}
 .d{font-family:'Arial Narrow','Roboto Condensed',Arial,sans-serif;font-weight:900;fill:#0e0e0c}
@@ -9,6 +9,6 @@
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 
-<text class="m" x="32" y="30"><tspan class="sig">03</tspan> / selected work</text>
-<line class="hair" x1="32" x2="848" y1="44.5" y2="44.5"/><text class="d" x="32" y="92" font-size="36">EACH ON ITS OWN HARDWARE.</text>
+<text class="m" x="32" y="30"><tspan class="sig">03</tspan> selected work</text>
+<line class="hair" x1="32" x2="848" y1="44.5" y2="44.5"/>
 </svg>

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" width="220" height="64" role="img" aria-label="github">
-<title>github</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 64" width="880" height="64" role="img" aria-label="ryoku nix discord">
+<title>ryoku nix discord</title>
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#0e0e0c}
 .d{font-family:'Arial Narrow','Roboto Condensed',Arial,sans-serif;font-weight:900;fill:#0e0e0c}
@@ -8,5 +8,5 @@
 @keyframes nudge{0%,70%,100%{transform:none}80%{transform:translate(3px,-3px)}}.nudge{animation-delay:0s;animation:nudge 3.2s ease-in-out infinite}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<line class="hair" x1="32" x2="188" y1=".5" y2=".5"/><text class="m dim" x="32" y="26">01</text><text class="m" x="32" y="48" font-size="14">github</text><g class="nudge"><path class="ar" d="M94.08,46L102.08,38M96.48,38H102.08V43.6"/></g>
+<line class="hair" x1="32" x2="848" y1=".5" y2=".5"/><text class="m dim" x="32" y="26">01</text><text class="m" x="32" y="48" font-size="14">ryoku nix discord</text><g class="nudge"><path class="ar" d="M189.56,46L197.56,38M191.96,38H197.56V43.6"/></g>
 </svg>
