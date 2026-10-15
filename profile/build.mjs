@@ -47,9 +47,8 @@ function keyframes(vals, steps) {
 const appear = (id, on, off = 0.92, dur = 10) =>
   `@keyframes ${id}{0%,${pct(Math.max(0, on - 0.001))}{opacity:0}${pct(on)},${pct(off)}{opacity:1}${pct(Math.min(1, off + 0.04))},100%{opacity:0}}.${id}{animation:${id} ${dur}s linear infinite}`
 
-const header = (num, title, note) => `
+const header = (num, title) => `
 <text class="m" x="${PAD}" y="30"><tspan class="sig">${num}</tspan> / ${esc(title)}</text>
-<text class="m dim" x="${W - PAD}" y="30" text-anchor="end">${esc(note)}</text>
 <line class="hair" x1="${PAD}" x2="${W - PAD}" y1="44.5" y2="44.5"/>`
 
 const upRight = (x, y, s = 8) => `<path class="ar" d="M${x},${y + s}L${x + s},${y}M${x + s * 0.3},${y}H${x + s}V${y + s * 0.7}"/>`
@@ -82,11 +81,7 @@ function surface(theme) {
   let css = ''
   let body = `
 <text class="m" x="${PAD}" y="30">aethctl <tspan class="sig">@</tspan> linux</text>
-<text class="m" x="${W / 2}" y="30" text-anchor="middle"><tspan class="sig">1 surface</tspan><tspan class="dim">  2 layers  3 work  4 signal  5 history  6 shell  7 contact</tspan></text>
-<text class="m dim" x="${W - PAD}" y="30" text-anchor="end">depth 000</text>
-<line class="hair" x1="${PAD}" x2="${W - PAD}" y1="44.5" y2="44.5"/>
-<text class="m" x="${PAD}" y="72">Linux developer</text>
-<text class="m dim" x="${W - PAD}" y="72" text-anchor="end">NixOS · Wayland · Desktop systems</text>`
+<line class="hair" x1="${PAD}" x2="${W - PAD}" y1="44.5" y2="44.5"/>`
 
   names.forEach((line, li) => {
     const chars = [...line.text]
@@ -117,12 +112,9 @@ function surface(theme) {
   })
 
   body += `
-<line class="hair" x1="${PAD}" x2="${W - PAD}" y1="280.5" y2="280.5"/>
-<text class="m" x="${PAD}" y="306"><tspan class="dim">now  </tspan>Ryoku on NixOS</text>
-<text class="m" x="335" y="306"><tspan class="dim">stack  </tspan>NixOS · QML · Go</text>
-<text class="m" x="610" y="306"><tspan class="dim">focus  </tspan>desktop UX</text>`
+<line class="hair" x1="${PAD}" x2="${W - PAD}" y1="280.5" y2="280.5"/>`
 
-  return svg(theme, 330, css, body, 'Aether, aethctl. Linux developer focused on NixOS, Wayland and desktop systems.')
+  return svg(theme, 300, css, body, 'Aether, aethctl. Linux desktop developer.')
 }
 
 function intro(theme) {
@@ -173,10 +165,7 @@ const WORK = [
   { name: 'Ryoku-on-NixOS', on: 'nixos · qml · wayland', device: 'ryoku', desc: 'The official declarative NixOS port of Ryoku, with native modules, packaging, installer work, compositor integration and NixOS-specific runtime bridges.' },
   { name: 'why', on: 'go · linux · diagnostics', device: 'why', desc: 'A Linux diagnostics CLI that answers questions like why git, why :8080 and why 4312 using evidence from the running system.' },
   { name: 'ryomanager', on: 'qml · system monitor', device: 'manager', desc: 'A Ryoku-native system task manager designed around the same visual and interaction language as the desktop itself.' },
-  { name: 'ryostore', on: 'ryoku · packages · apps', device: 'store', desc: 'The app and package surface for the Ryoku ecosystem, tying installation and discovery into one desktop-native workflow.' },
   { name: 'arcane-guard', on: 'linux · inspection · safety', device: 'guard', desc: 'A focused safety-inspection tool for Linux systems, built as one module of the wider Arcane Studio suite.' },
-  { name: 'Wallpaper-Megathread', on: 'linux · ricing · assets', device: 'wallpaper', desc: 'A curated wallpaper repository for desktop ricing, organised as a practical resource instead of another unsearchable image dump.' },
-  { name: 'ryoku', on: 'upstream · shell · ecosystem', device: 'upstream', desc: 'My working fork of the wider Ryoku desktop, where upstream shell behaviour, integrations and ecosystem changes meet the NixOS port.' },
 ]
 
 const DEV_W = 208
@@ -350,7 +339,7 @@ function shell(theme) {
     ['focus', 'Wayland · packaging · desktop UX'],
   ]
   let css = '@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.blink{animation:blink 1s steps(1) infinite}'
-  let body = `${header('06', 'shell', 'the command runs itself here')}<rect class="ln" x="32.5" y="60.5" width="815" height="330" rx="6" stroke-opacity=".35"/><text class="m dim" x="440" y="80" text-anchor="middle">zsh  ~/Projects</text><line class="hair" x1="33" x2="847" y1="92.5" y2="92.5"/><text class="m" x="56" y="122" font-size="13">aether<tspan class="sig">@nixos</tspan><tspan class="dim"> ~ </tspan></text>${chevron(cmdX - 12, 118)}`
+  let body = `${header('05', 'shell')}<rect class="ln" x="32.5" y="60.5" width="815" height="330" rx="6" stroke-opacity=".35"/><text class="m dim" x="440" y="80" text-anchor="middle">zsh  ~/Projects</text><line class="hair" x1="33" x2="847" y1="92.5" y2="92.5"/><text class="m" x="56" y="122" font-size="13">aether<tspan class="sig">@nixos</tspan><tspan class="dim"> ~ </tspan></text>${chevron(cmdX - 12, 118)}`
   ;[...cmd].forEach((ch, i) => {
     css += appear(`type${i}`, 0.06 + i * 0.025, 0.92, DUR)
     body += `<text class="m type${i}" x="${r(cmdX + monoW(i, 13), 1)}" y="122" font-size="13" opacity="0">${ch}</text>`
@@ -368,7 +357,7 @@ function shell(theme) {
 
 function contact(theme) {
   const css = '@keyframes wide{0%,8%{transform:scaleX(.63)}40%,82%{transform:scaleX(1)}96%,100%{transform:scaleX(.63)}}.wide{animation:wide 10s cubic-bezier(.65,0,.35,1) infinite;transform-box:fill-box;transform-origin:left}' + NUDGE
-  const body = `${header('07', 'exit 0', 'github · x · discord · steam')}<text class="d" x="${PAD}" y="92" font-size="36">FIND ME IN THE SHELL.</text><text class="d sig wide" x="${PAD}" y="182" font-size="82">@AETHCTL</text><text class="m dim" x="${PAD}" y="216">click through below</text><g class="nudge">${upRight(142, 207)}</g>`
+  const body = `${header('06', 'exit 0')}<text class="d" x="${PAD}" y="92" font-size="36">FIND ME IN THE SHELL.</text><text class="d sig wide" x="${PAD}" y="182" font-size="82">@AETHCTL</text><text class="m dim" x="${PAD}" y="216">click through below</text><g class="nudge">${upRight(142, 207)}</g>`
   return svg(theme, 238, css, body, 'Find Aether online as aethctl.')
 }
 
@@ -424,7 +413,6 @@ const SECTIONS = [
   { name: 'work', href: `https://github.com/${USER}?tab=repositories`, make: workHead },
   ...WORK.map((p, i) => ({ name: `work-${i + 1}`, href: repo(p.name), make: (th) => workRow(th, p, i), tight: true })),
   { name: 'signal', href: `${repo(FLAGSHIP)}/stargazers`, make: (th) => signal(th, data) },
-  { name: 'history', href: repo(FLAGSHIP), make: history },
   { name: 'shell', href: repo(FLAGSHIP), make: shell },
   { name: 'contact', href: repo(USER), make: contact },
   ...LINKS.map((l, i) => ({ name: `link-${i + 1}`, href: l[1], make: (th) => chip(th, l, i), width: '25%', row: true })),

@@ -9,7 +9,6 @@
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 
-<text class="m" x="32" y="30"><tspan class="sig">07</tspan> / exit 0</text>
-<text class="m dim" x="848" y="30" text-anchor="end">github · x · discord · steam</text>
+<text class="m" x="32" y="30"><tspan class="sig">06</tspan> / exit 0</text>
 <line class="hair" x1="32" x2="848" y1="44.5" y2="44.5"/><text class="d" x="32" y="92" font-size="36">FIND ME IN THE SHELL.</text><text class="d sig wide" x="32" y="182" font-size="82">@AETHCTL</text><text class="m dim" x="32" y="216">click through below</text><g class="nudge"><path class="ar" d="M142,215L150,207M144.4,207H150V212.6"/></g>
 </svg>
