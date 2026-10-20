@@ -292,7 +292,7 @@ function signal(theme, data) {
   const css = '@keyframes star{0%{transform:translate(var(--x),var(--y));opacity:0}22%,80%{transform:none;opacity:1}100%{transform:translate(var(--x),var(--y));opacity:0}}.star{animation:star 10s cubic-bezier(.16,1,.3,1) infinite both;animation-delay:var(--t)}'
   const stats = [['stars tracked', data.stars], ['forks tracked', data.forks], ['repos tracked', data.repos], ['scope', 'aethctl + ryoku-dev']]
   const body = `${header('04', 'open source')}${dots}<text class="m" x="540" y="92" font-size="13">Every point here belongs to the wider</text><text class="m" x="540" y="112" font-size="13">open-source signal around <tspan class="sig">aethctl</tspan> and <tspan class="sig">Ryoku</tspan>.</text>${stats.map(([k, v], i) => `<line class="hair" x1="540" x2="848" y1="${168.5 + i * 32}" y2="${168.5 + i * 32}"/><text class="m dim" x="540" y="${190 + i * 32}">${k}</text><text class="m" x="848" y="${190 + i * 32}" text-anchor="end" font-size="13">${esc(v)}</text>`).join('')}`
-  return svg(theme, 330, css, body, `${data.stars} stars and ${data.forks} forks across tracked aethctl and Ryoku repositories. ${data.repos} repositories tracked.`)
+  return svg(theme, 330, css, body, `${data.stars} stars and ${data.forks} forks across tracked repos I work on and maintain. ${data.repos} repositories tracked.`)
 }
 
 function history(theme) {
@@ -322,16 +322,16 @@ function history(theme) {
 
 function shell(theme) {
   const DUR = 12
-  const prompt = 'aether@nixos ~ '
-  const cmd = 'fastfetch'
+  const prompt = 'aethct;@nixos ~ '
+  const cmd = 'larpfetch'
   const cmdX = 56 + monoW(prompt.length, 13) + 8
   const out = [
-    ['os', 'NixOS 26.11'],
+    ['os', 'NixOS 26.11 (Zokor)'],
     ['wm', 'Niri · Hyprland'],
     ['shell', 'zsh'],
-    ['desktop', 'Ryoku · Quickshell · QML'],
+    ['desktop', 'Wayland · Quickshell · QML'],
     ['langs', 'Go · QML · Python · Lua · Bash'],
-    ['focus', 'Wayland · packaging · desktop UX'],
+    ['focus', 'Ryoku · Ricing · Larping '],
   ]
   let css = '@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.blink{animation:blink 1s steps(1) infinite}'
   let body = `${header('05', 'shell')}<rect class="ln" x="32.5" y="60.5" width="815" height="330" rx="6" stroke-opacity=".35"/><text class="m dim" x="440" y="80" text-anchor="middle">zsh  ~/Projects</text><line class="hair" x1="33" x2="847" y1="92.5" y2="92.5"/><text class="m" x="56" y="122" font-size="13">aether<tspan class="sig">@nixos</tspan><tspan class="dim"> ~ </tspan></text>${chevron(cmdX - 12, 118)}`
